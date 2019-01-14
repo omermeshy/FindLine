@@ -20,8 +20,8 @@ if __name__ == "__main__":
     else:
         print("Directory ", dirName, " already exists")
 
-    width = 320
-    height = 240
+    width = 640
+    height = 480
     fps = 30
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
     out = None
